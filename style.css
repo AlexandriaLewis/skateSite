@@ -3,6 +3,10 @@ html {
   background-size: cover;
 }
 
+a {
+  text-decoration: none;
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -43,6 +47,10 @@ header {
 .subscribe p {
   display: inline-block;
   padding-left: 0;
+  color: #fff;
+}
+.subscribe p:hover {
+  color: #B52E2E;
 }
 
 .subscribe ul {
@@ -65,6 +73,10 @@ header {
   background-size: 100%;
   background-color: blue;
   border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon1:hover {
+  background-color: #FFF;
 }
 
 .icon2 {
@@ -75,6 +87,10 @@ header {
   background-size: 100%;
   background-color: yellow;
   border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon2:hover {
+  background-color: #FFF;
 }
 
 .icon3 {
@@ -85,6 +101,10 @@ header {
   background-size: 100%;
   background-color: lightblue;
   border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon3:hover {
+  background-color: #FFF;
 }
 
 .icon4 {
@@ -95,6 +115,10 @@ header {
   background-size: 100%;
   background-color: red;
   border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon4:hover {
+  background-color: #FFF;
 }
 /*---------------------------------
 < header
@@ -113,6 +137,10 @@ button bar >
   display: inline-block;
   background-color: #B52E2E;
   text-align: center;
+  transition: all 1.5s ease;
+}
+.button:hover {
+  background-color: #ffffff;
 }
 
 .buttonshadow {
@@ -128,6 +156,10 @@ button bar >
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0 auto;
   padding: 3%;
+  transition: all 1.5s ease-in-out;
+}
+.button:hover h3 {
+  color: #000;
 }
 /*---------------------------------
 < button bar
@@ -272,6 +304,14 @@ article bar >
   margin: 3%;
 }
 
+.article h4 {
+  color: #B52E2E;
+  transition: .5 ease;
+}
+.article h4:hover {
+  font-size: 20px;
+}
+
 .article span {
   font-size: 16px;
   color: gray;
@@ -311,7 +351,7 @@ sk8 profiles >
 .sk8profiles {
   width: 100%;
   min-height: 400px;
-  position: relative;
+  /*position: relative;*/
   font-family: 'Open+Sans', sans-serif;
   color: #fff;
 }
@@ -345,6 +385,28 @@ sk8 profiles >
   border-left: 28px solid #B52E2E;
 }
 
+.wholearrow {
+  position: relative;
+  animation: dance 2s infinite;
+}
+@keyframes dance {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /*.pointshadow {
   position: absolute;
   top: 12%;
@@ -363,6 +425,15 @@ sk8 profiles >
   width: 65.7%;
 }
 
+.colleft p {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
 .left1 {
   position: relative;
   width: 47%;
@@ -374,14 +445,17 @@ sk8 profiles >
   background-size: 151%;
   background-position-x: -119px;
   background-position-y: -4px;
+  transition: all 1s ease;
 }
-
+.left1:hover {
+  border: 6px solid #B52E2E;
+}
 .left1 p {
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  font-weight: bolder;
-  font-size: 35px;
+  opacity: 1;
+  transition: all 1s ease;
+}
+.left1:hover p {
+  opacity: .3;
 }
 
 .left1 p:nth-child(1) {
@@ -405,6 +479,17 @@ sk8 profiles >
   background-size: 135%;
   background-position-x: 0;
   background-position-y: 0;
+  transition: all 1s ease;
+}
+.left2:hover {
+  border: 6px solid #B52E2E;
+}
+.left2 p {
+  opacity: 1;
+  transition: all 1s ease;
+}
+.left2:hover p {
+  opacity: .3;
 }
 
 .left2 p {
@@ -437,6 +522,17 @@ sk8 profiles >
   background-size: 110%;
   background-position-x: 0;
   background-position-y: -71px;
+  transition: all 1s ease;
+}
+.left3:hover {
+  border: 6px solid #B52E2E;
+}
+.left3 p {
+  opacity: 1;
+  transition: all 1s ease;
+}
+.left3:hover p {
+  opacity: .3;
 }
 
 .left3 p {
@@ -462,12 +558,24 @@ sk8 profiles >
   background-position-x: -387px;
   background-position-y: 0;
   vertical-align: top;
+  transition: all 1s ease;
+}
+.colright:hover {
+  border: 6px solid #B52E2E;
+}
+.colright p {
+  opacity: 1;
+  transition: all 1s ease;
+}
+.colright:hover p {
+  opacity: .3;
 }
 
 .colright p {
   position: absolute;
   padding: 0;
   margin: 0;
+  color: #fff;
   font-weight: bolder;
   font-size: 35px;
 }
@@ -511,7 +619,16 @@ board bar >
   padding: 1.5% 1.8%;
   /* text-align: justify; */
   width: 5.6%;
+  transform: scale(0);
+  transform: rotate(0);
+  /*animation: dance 2s infinite;*/
+  transition: transform .3s ease;
 }
+.boardline img:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
+
+
 /*---------------------------------
 < board bar
 footer >
@@ -564,6 +681,11 @@ footer >
   background-size: 100%;
   background-color: rgb(199, 199, 199);
   /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon1:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
 }
 
 .footericon2 {
@@ -574,6 +696,11 @@ footer >
   background-size: 100%;
   background-color: rgb(199, 199, 199);
   /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon2:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
 }
 
 .footericon3 {
@@ -584,6 +711,11 @@ footer >
   background-size: 100%;
   background-color: rgb(199, 199, 199);
   /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon3:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
 }
 
 .footericon4 {
@@ -596,6 +728,11 @@ footer >
   /*FOR TRANSITION COLOR CHANGE:
   background-color: rgb(101, 101, 101);*/
   /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon4:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
 }
 
 .footercol1 h2 {

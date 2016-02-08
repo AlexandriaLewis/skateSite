@@ -639,6 +639,109 @@ header {
   border: none;
   background-color: #B52E2E; }
 
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  body .content {
+    width: 100%;
+    margin: 0;
+    position: relative; }
+  header .subscribe {
+    width: 50%; }
+  nav.topbuttons {
+    height: 65px; }
+  nav .buttonshadow {
+    width: 48%; }
+  nav .button h3 {
+    font-size: 14px; }
+  .slider.imageboxshadow {
+    width: 100%; }
+  .slider .imagebox {
+    height: 175px; }
+  img.logo {
+    width: 50%;
+    top: 47px; }
+  .topimage img {
+    width: 150%;
+    height: 100%;
+    top: 0px; }
+  section .articleshadow {
+    width: 100%; }
+    section .articleshadow .article {
+      min-height: 150px; }
+    section .articleshadow h2 {
+      font-size: 14px; }
+    section .articleshadow span {
+      font-size: 12px; }
+    section .articleshadow .poverflow {
+      overflow: auto;
+      width: 100%;
+      height: 50px; }
+    section .articleshadow h4 {
+      bottom: 0%;
+      font-size: 16px;
+      left: 35%; }
+  .sk8profiles {
+    margin-bottom: 5%; }
+    .sk8profiles .wholearrow {
+      display: none; }
+    .sk8profiles .colleft {
+      width: 100%; }
+      .sk8profiles .colleft .left1 {
+        width: 95%;
+        background-size: 170%;
+        background-position-x: -197px;
+        background-position-y: -20px; }
+        .sk8profiles .colleft .left1 p:nth-child(1) {
+          top: 56px;
+          right: 105px; }
+        .sk8profiles .colleft .left1 p:nth-child(2) {
+          top: 89px;
+          right: 72px; }
+      .sk8profiles .colleft .left2 {
+        width: 95%;
+        background-size: 148%;
+        background-position-x: -81px;
+        background-position-y: -20px; }
+        .sk8profiles .colleft .left2 p:nth-child(1) {
+          top: 55px;
+          right: 101px; }
+        .sk8profiles .colleft .left2 p:nth-child(2) {
+          top: 89px;
+          right: 105px; }
+      .sk8profiles .colleft .left3 {
+        width: 95%;
+        background-size: 148%;
+        background-position-x: -448px;
+        background-position-y: -141px; }
+      .sk8profiles .colleft p {
+        text-align: center;
+        top: 68px;
+        right: 17px; }
+    .sk8profiles div.colright {
+      width: 95%;
+      min-height: 200px;
+      background-size: 268%;
+      background-position-x: -472px;
+      background-position-y: -168px; }
+      .sk8profiles div.colright p:nth-child(1) {
+        top: 67px;
+        right: 121px; }
+      .sk8profiles div.colright p:nth-child(2) {
+        top: 101px;
+        right: 84px; }
+  .boardline img {
+    width: 13.6%; }
+  .footerbox .footercol1 {
+    width: 100%; }
+  .footerbox .footercol2 {
+    margin-top: 9%;
+    width: 100%; } }
+
+@media screen and (min-width: 380px) and (max-width: 800px) {
+  body .content {
+    width: 100%;
+    margin: 0;
+    position: relative; } }
+
 html {
   background-image: url(assets/bg.jpg);
   background-size: cover; }

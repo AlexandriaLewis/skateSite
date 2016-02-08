@@ -1,0 +1,164 @@
+.footer {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.footershadow {
+  /* position: absolute; */
+  bottom: 5px;
+  margin-top: 16px;
+  padding: 0;
+  /* margin: 1.5px; */
+  width: 100%;
+  border-bottom: 9px solid rgba(255, 255, 255, 0.41);
+}
+
+.footerbox {
+  width: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footercol1 {
+  position: relative;
+  width: 53%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footermessage {
+  width: 100%;
+  margin-top: 30px;
+  /*margin-left: 30px;*/
+}
+
+.footerbuttons {
+  position: absolute;
+  left: 31px;
+}
+
+.footericon1 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/facebook.png);
+  background-size: 100%;
+  background-color: rgb(199, 199, 199);
+  /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon1:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
+}
+
+.footericon2 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/rss.png);
+  background-size: 100%;
+  background-color: rgb(199, 199, 199);
+  /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon2:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
+}
+
+.footericon3 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/twitter.png);
+  background-size: 100%;
+  background-color: rgb(199, 199, 199);
+  /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon3:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
+}
+
+.footericon4 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/youtube.png);
+  background-size: 100%;
+  background-color: rgb(199, 199, 199);
+  /*FOR TRANSITION COLOR CHANGE:
+  background-color: rgb(101, 101, 101);*/
+  /*border-bottom: 4px solid gray;*/
+  transition: transform, background-color 1s ease;
+}
+.footericon4:hover {
+  transform: scale(1.5);
+  background-color: rgba(199, 199, 199, 0.5);
+}
+
+.footercol1 h2 {
+  margin: 15px 30px;
+}
+
+.footercol1 p {
+  margin: 15px 30px;
+  line-height: 2.5;
+}
+
+.footercol2 {
+  width: 46%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footercol2 form {
+  margin-top: 10%;
+}
+
+.footercol2 input {
+  font-size: 1.17em;
+  display: block;
+  color: #000;
+  width: 84%;
+  height: 15px;
+  background-color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(2, 2, 2, 0.44);
+  margin: 0 0 10px 0;
+  padding: 15px;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+}
+
+.footercol2 textarea {
+  overflow: auto;
+  resize: none;
+  font-size: 1.17em;
+  display: block;
+  color: #000;
+  width: 84%;
+  height: 125px;
+  background-color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(2, 2, 2, 0.44);
+  margin: 0 0 10px 0;
+  padding: 15px;
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+}
+
+.footercol2 input[type="submit"] {
+  width: 56%;
+  height: 15px;
+  background-color: red;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  float: right;
+  line-height: 1px;
+  margin-right: 23px;
+  border: none;
+  background-color: #B52E2E;
+}

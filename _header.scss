@@ -1,0 +1,91 @@
+header {
+  /*width: 100%;*/
+  height: 40px;
+  text-align: right;
+}
+
+.subscribe {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  width: 30%;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.subscribe p {
+  display: inline-block;
+  padding-left: 0;
+  color: #fff;
+}
+.subscribe p:hover {
+  color: #B52E2E;
+}
+
+.subscribe ul {
+  display: inline-block;
+  border-right: 3px dotted;
+  padding-right: 20%;
+}
+
+.subbuttons {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.icon1 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/facebook.png);
+  background-size: 100%;
+  background-color: blue;
+  border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon1:hover {
+  background-color: #FFF;
+}
+
+.icon2 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/rss.png);
+  background-size: 100%;
+  background-color: yellow;
+  border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon2:hover {
+  background-color: #FFF;
+}
+
+.icon3 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/twitter.png);
+  background-size: 100%;
+  background-color: lightblue;
+  border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon3:hover {
+  background-color: #FFF;
+}
+
+.icon4 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/youtube.png);
+  background-size: 100%;
+  background-color: red;
+  border-bottom: 4px solid gray;
+  transition: background-color 1s ease;
+}
+.icon4:hover {
+  background-color: #FFF;
+}

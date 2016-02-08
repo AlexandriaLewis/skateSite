@@ -1,0 +1,73 @@
+.slider {
+  width: 100%;
+}
+
+.imagebox {
+  overflow-y: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /*width: 98.5%;*/
+  height: 300px;
+  border: 6px solid #fff;
+}
+
+.imageboxshadow {
+  padding: 0;
+  /*margin: 1.5px;*/
+  width: 98.5%;
+  border-bottom: 9px solid rgba(228, 228, 228, 0.41);
+}
+
+.gridoverlay {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/grid.png);
+  background-size: 100%;
+  opacity: .5;
+  z-index: 4;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  z-index: 3;
+}
+
+.topimage {
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.topimage img {
+  height: 701px;
+  position: relative;
+  top: -108px;
+  right: 39px;
+  z-index: 1;
+}
+
+.slidernav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.slidernav form {
+  margin: 15px 0;
+  text-align: center;
+}
